@@ -1,0 +1,14 @@
+footer {
+  text-align: center;
+  background: var(--grey-100);
+  /* padding: calc(var(--baseline) *2) 0; */
+}
+
+footer p {
+  line-height: 80px;
+  margin: 0;
+}
+
+footer a {
+  font-family: "Helvetica Neue", "Helvetica", "Open sans", arial, sans-serif;
+}

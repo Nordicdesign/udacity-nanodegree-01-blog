@@ -1,0 +1,11 @@
+:root {
+  /* sizes */
+  --baseline: 16px;
+
+  /* colours */
+  --color-body: #333;
+  --accent1: #00adb5;
+  --accent2: #aad8d3;
+  --accent3: #393e46;
+  --grey-100: #eee;
+}

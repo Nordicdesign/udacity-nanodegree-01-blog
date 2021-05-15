@@ -1,10 +1,167 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Nordic Design - A personal blog website by Alex Lillo</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Example site created for Udacity Nanodegree">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Nordic Design - A personal blog website by Alex Lillo</title>
+</head>
+
+<body>
+  <div class="container-home">
+    <header>
+      <h1><a href="/" title="Back to homepage">Nordic Design</a></h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">home</a>
+          </li>
+          <li>
+            <a href="/blog-archive.html">blog archive</a>
+          </li>
+          <li>
+            <a href="/about.html">about</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header-social">
+        <li><a href="https://github.com/Nordicdesign"><img src="./images/github-brands.svg" alt="github" width="20"></a></li>
+        <li><a href="https://www.linkedin.com/in/alexlillo"><img src="./images/linkedin-in-brands.svg" alt="linkedin" width="20"></a></li>
+        <li><a href="http://twitter.com/nordic"><img src="./images/twitter-brands.svg" alt="twitter" width="22"></a></li>
+      </ul>
+    </header>
+
+    <main>
+      <!-- top main article -->
+      <div class="home-main">
+
+        <div class="main-article">
+          <section>
+            <a href="article1.html">
+              <img src="./images/clay-banks-s-hw64ghWEA-unsplash.jpg" alt="Person holding tomatoes">
+              <h2>You say tomato, I say tomeito. Or is it avocado?</h2>
+            </a>
+          </section>
+        </div>
+
+
+        <div class="main-2nd-article">
+          <section>
+            <a href="article1.html">
+              <img src="./images/daniel-cheung-B7N0IjiIJYo-unsplash.jpg" alt="Lego crossing the road">
+              <h3>Design systems will only work if we improve the way we work together</h3>
+              <p class="dateline">22 April 2018</p>
+            </a>
+          </section>
+        </div>
+
+        <div class="home-biog">
+          <aside>
+          <!-- biog -->
+
+            <img src="./images/profile.jpg" alt="Profile picture of Alex Lillo">
+            <h3>Hi, I'm Alex Lillo</h3>
+            <p>I’m a designer and front-end developer based in the UK.</p>
+            <p><a href="/about.html">Learn more about me</a></p>
+          </aside>
+        </div>
+      </div>
+
+
+      <!-- articles -->
+      <div class="home-articles">
+        <section>
+          <div class="home-articles-article">
+              <a href="article1.html">
+                <img src="./images/paulius-dragunas-ID6-VGSfdWo-unsplash.jpg" alt="Building facade">
+                <h3>Prototyping with CSS grid</h3>
+                <p class="dateline">28 September 2017</p>
+              </a>
+          </div>
+        </section>
+        <section>
+          <div class="home-articles-article">
+            <a href="article1.html">
+              <img src="./images/aziz-acharki-alANOC4E8iM-unsplash.jpg" alt="Person doing a thumbs up">
+              <h3>How to deal with good UX</h3>
+              <p class="dateline">29 August 2019</p>
+            </a>
+          </div>
+        </section>
+        <section>
+          <div class="home-articles-article">
+            <a href="article1.html">
+              <img src="./images/markus-winkler--TRcaFMV5vk-unsplash.jpg" alt="Paper with word Crisis">
+              <h3>3 rules of crisis management</h3>
+              <p class="dateline">18 January 2017</p>
+            </a>
+          </div>
+        </section>
+
+        <div class="home-articles-view-more">
+          <p><a href="/blog-archive.html">View more articles</a></p>
+        </div>
+      </div>
+
+      <!-- promo -->
+      <div class="home-prom">
+        <div class="home-prom-wrapper">
+          <section>
+            <h2>Some podcast I like</h2>
+            <div>
+              <img src="./images/podcast.jpg" alt="Design Better Podcast cover">
+              <div>
+                <h3>Design better podcast</h3>
+                <p>The folks at InVision produce great deal of free content for the community, and their podcast is one of my favourite. Tons of great insights from industry experts.</p>
+                <p><a href="https://www.designbetter.co/podcast">Check the podcast's website</a></p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- recent work -->
+      <div class="home-recent">
+
+          <h2>Recent work</h2>
+          <ul>
+            <li>
+              <img src="./images/flying_mock.jpg" alt="Two phones showing a website">
+              <section>
+                <h3>The Solar Centre</h3>
+                <p>Designed a new front-end for their online store. Using Google Optimize I coded the new design using just CSS, with a 5% uplift in conversions.</p>
+                <p><a href="https://www.thesolarcentre.co.uk/">Visit their website</a></p>
+              </section>
+            </li>
+            <li>
+              <img src="./images/drive-race-win.jpg" alt="Screenshot of a website">
+              <section>
+                <h3>Drive.Race.Win.</h3>
+                <p>A little pet project to help simracers find their next race. Coded in React using Firebase as the backend in order to get it up and running quickly.</p>
+                <p><a href="https://driveracewin.com/">Visit website</a>  - <a href="https://github.com/Nordicdesign/simcalendar">Github repo</a> </p>
+              </section>
+            </li>
+            <li>
+              <img src="./images/tpc-overlay.jpg" alt="Screenshot of a website">
+              <section>
+                <h3>The Pit Crew Overlay Graphics</h3>
+                <p>Dinamically generated championship standings for a Twitch stream. Both front-end and back-end (React and node.js), pulls data from simracing.gp and generates graphics for the stream.</p>
+                <p>Repo available on demand.</p>
+              </section>
+            </li>
+          </ul>
+
+      </div>
+    </main>
+
+    <footer>
+      <p>Coded with ❤️ by Alex Lillo in the UK. Images from <a href="https://unsplash.com/">Unsplash</a>. Font <a href="https://fonts.google.com/specimen/Abhaya+Libre">Abhaya Libre</a> by Mooniak. Icons by <a href="https://fontawesome.com/license">Font Awesome</a>.</p>
+    </footer>
+  </div><!-- home container ends -->
+</body>
+
 </html>

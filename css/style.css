@@ -1,0 +1,13 @@
+@import "./variables.css";
+@import "./typography.css";
+@import "./layout.css";
+@import "./header.css";
+@import "./home.css";
+@import "./footer.css";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}

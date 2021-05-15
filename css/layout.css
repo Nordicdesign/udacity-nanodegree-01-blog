@@ -1,0 +1,39 @@
+/* overall blog layout */
+.container-home {
+  display: grid;
+  grid-template-rows: 120px 1fr 80px;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+.container-home .main {
+  grid-area: "main";
+  display: grid;
+  grid-template-rows: 1fr 1fr minmax(150px, auto) 1fr;
+  grid-template-areas:
+    "articles"
+    "prom"
+    "recent"
+}
+
+.home-articles {
+  grid-area: articles;
+}
+
+.home-prom {
+  grid-area: prom;
+}
+
+.home-recent {
+  grid-area: recent;
+}
+
+footer {
+  grid-area: footer;
+}

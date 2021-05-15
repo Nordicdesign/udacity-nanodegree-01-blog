@@ -1,0 +1,80 @@
+html,
+body {
+  font-size: 62.5%;
+  font-family: "Helvetica Neue", "Helvetica", "Open sans", arial, sans-serif;
+  color: var(--color-body);
+  margin:0;
+  padding: 0;
+}
+
+/* headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Abhaya Libre', Times, serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4.2rem;
+  color: black;
+}
+
+h2 {
+  font-size: 3.6rem;
+  color: black;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 2.2rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.8rem;
+}
+
+
+p,
+li,
+td {
+  font-size: 1.6rem;
+  line-height: 1.35;
+}
+
+
+
+a {
+  color: var(--accent1);
+  text-decoration: none;
+
+}
+
+p > a { /* just underline links that are on a paragraph */
+  border-bottom: 1px solid var(--accent1);
+  font-family: 'Abhaya Libre', Times, serif;
+}
+
+a:hover {
+  border: none;
+}
+
+a:visited {
+  color: #008F96;
+}
+
+a h2,
+a h3,
+a h4 {
+  color: black;
+}
