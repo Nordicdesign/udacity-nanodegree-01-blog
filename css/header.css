@@ -14,6 +14,12 @@ header h1 {
   margin: 0;
 }
 
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 2.8rem;
+  }
+}
+
 header nav ul {
   display: flex;
   flex-direction: row;
@@ -49,4 +55,90 @@ header nav ul li a:hover {
 
 .header-social li:last-child {
   margin-right: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .small-nav,
+  .small-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    justify-content: space-between;
+    margin-top: var(--baseline);
+    align-items: center;
+  }
+
+  .small-menu button {
+    background: none;
+    border: none;
+    position: relative;
+    padding-right: 26px;
+    font-size: 1.6rem;
+  }
+
+  .small-menu button:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: var(--color-body);
+    border-radius: 2px;
+    top: 4px;
+    right: 0;
+    box-shadow: 0 6px 0 var(--color-body), 0 12px 0 var(--color-body);
+  }
+
+  header > nav,
+  header > ul.header-social {
+    display: none;
+  }
+
+  header .small-nav {
+    position: absolute;
+    width: 90vw;
+    left: 100vw;
+    top: 0;
+  }
+
+  header .small-nav .close-nav {
+    text-align: right;
+    font-size: 1.8rem;
+    padding-bottom: calc(var(--baseline));
+    border-bottom: 1px solid #eee;
+    margin-top: 4px;
+  }
+
+  header .small-menu button#close-menu {
+    background: none;
+    border: none;
+    position: relative;
+    padding-right: 26px;
+    font-size: 1.6rem;
+  }
+
+  header .small-menu button#close-menu:after {
+    content: '&times;';
+    position: absolute;
+
+    top: 4px;
+    right: 0;
+  }
+
+
+  header .small-nav nav ul {
+    flex-direction: column;
+    margin-top: calc(var(--baseline)*3);
+  }
+
+  header .small-nav ul li {
+    font-size: 2.2rem;
+    margin-bottom: calc(var(--baseline)*3);
+  }
+
+  header .small-nav ul.header-social {
+    justify-content: center;
+  }
 }

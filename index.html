@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div class="container-home">
+  <div class="wrapper container-home">
     <header>
       <h1><a href="/" title="Back to homepage">Nordic Design</a></h1>
       <nav>
@@ -33,6 +33,34 @@
         <li><a href="https://www.linkedin.com/in/alexlillo"><img src="./images/linkedin-in-brands.svg" alt="linkedin" width="20"></a></li>
         <li><a href="http://twitter.com/nordic"><img src="./images/twitter-brands.svg" alt="twitter" width="22"></a></li>
       </ul>
+      <div class="small-menu">
+        <button id="small-menu">Menu</button>
+      </div>
+
+      <!-- navigation for small viewports, hidden on large ones -->
+      <div class="small-nav">
+        <p class="close-nav">
+          <button id="close-menu">Close</button>
+        </p>
+        <nav>
+          <ul>
+            <li>
+              <a href="/">home</a>
+            </li>
+            <li>
+              <a href="/blog-archive.html">blog archive</a>
+            </li>
+            <li>
+              <a href="/about.html">about</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-social">
+          <li><a href="https://github.com/Nordicdesign"><img src="./images/github-brands.svg" alt="github" width="20"></a></li>
+          <li><a href="https://www.linkedin.com/in/alexlillo"><img src="./images/linkedin-in-brands.svg" alt="linkedin" width="20"></a></li>
+          <li><a href="http://twitter.com/nordic"><img src="./images/twitter-brands.svg" alt="twitter" width="22"></a></li>
+        </ul>
+      </div>
     </header>
 
     <main>
@@ -162,6 +190,7 @@
       <p>Coded with ❤️ by Alex Lillo in the UK. Images from <a href="https://unsplash.com/">Unsplash</a>. Font <a href="https://fonts.google.com/specimen/Abhaya+Libre">Abhaya Libre</a> by Mooniak. Icons by <a href="https://fontawesome.com/license">Font Awesome</a>.</p>
     </footer>
   </div><!-- home container ends -->
+  <script src="./scripts/script.js" charset="utf-8"></script>
 </body>
 
 </html>

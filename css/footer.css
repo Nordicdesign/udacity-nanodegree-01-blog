@@ -1,7 +1,6 @@
 footer {
   text-align: center;
   background: var(--grey-100);
-  /* padding: calc(var(--baseline) *2) 0; */
 }
 
 footer p {
@@ -11,4 +10,12 @@ footer p {
 
 footer a {
   font-family: "Helvetica Neue", "Helvetica", "Open sans", arial, sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  footer p {
+    line-height: 1.5;
+    padding: calc(var(--baseline) *2);
+    font-size: 1.3rem;
+  }
 }

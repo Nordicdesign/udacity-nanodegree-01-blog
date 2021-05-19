@@ -6,6 +6,19 @@
     "header"
     "main"
     "footer";
+  -webkit-transition:-webkit-transform .25s ease;
+  transition:transform .25s ease;
+}
+
+
+@media screen and (max-width: 480px) {
+  .container-home {
+    display: block;
+  }
+  .wrapper.menu-visible {
+    transform: translate(-92vw, 0);
+  }
+
 }
 
 header {
