@@ -16,7 +16,7 @@
 
 .home-main .main-article h2 {
   position: absolute;
-  bottom: calc(var(--baseline) *3);
+  bottom: calc(var(--baseline) *7);
   left: calc(var(--baseline) *2);
   color: white;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
@@ -26,8 +26,18 @@
   width: 20%;
 }
 
+.home-main .main-2nd-article h3 {
+  margin: var(--baseline) 0;
+}
+
 .home-main .home-biog {
   width: 238px;
+}
+
+
+.home-main .home-biog h3 {
+  margin: var(--baseline) 0;
+  font-size: 2.2rem;
 }
 
 .home-main .home-biog img {
@@ -179,5 +189,5 @@
 
 .dateline {
   font-size: 1.2rem;
-  color: var(--color-body);
+  color: #999;
 }

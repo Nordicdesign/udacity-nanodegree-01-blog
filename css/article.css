@@ -1,0 +1,39 @@
+.container-article main {
+  width: 96%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.container-article .article-body h2 {
+  font-size: 5rem;
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+
+.container-article .article-body h3 {
+  margin: calc(var(--baseline)*4) 0 var(--baseline);
+  line-height: 1.1;
+}
+
+.postDate {
+  font-size: 1.4rem;
+  color: #999;
+  margin-bottom: calc(var(--baseline)*3);
+}
+
+/* related articles */
+.container-article aside {
+  padding-top: 200px;
+}
+
+.container-article aside .home-articles-article {
+  margin-top: calc(var(--baseline)*3);
+}
+
+.container-article aside .home-articles-article:first-of-type {
+  margin-top: 0;
+}
+
+.container-article aside h4 {
+  margin: 4px 0;
+}

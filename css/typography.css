@@ -29,15 +29,15 @@ h2 {
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
 }
 
 h4 {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
 }
 
 h5 {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 h6 {
@@ -48,8 +48,8 @@ h6 {
 p,
 li,
 td {
-  font-size: 1.6rem;
-  line-height: 1.35;
+  font-size: 1.8rem;
+  line-height: 1.45;
 }
 
 
@@ -77,4 +77,27 @@ a h2,
 a h3,
 a h4 {
   color: black;
+}
+
+blockquote::before {
+  content: '\201c';
+  font-family: 'Abhaya Libre', Times, serif;
+  font-size: 7rem;
+  float: left;
+  position: relative;
+  left: -16px;
+  line-height: 1;
+  color: tomato;
+}
+blockquote p {
+  font-size: 2.2rem;
+  font-family: 'Abhaya Libre', Times, serif;
+  font-style: italic;
+  padding-left: 16px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 4px;
 }
