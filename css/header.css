@@ -102,6 +102,7 @@ header nav ul li a:hover {
     width: 290px;
     left: 100vw;
     top: 0;
+    overflow-x: hidden;
   }
 
   header .small-nav .close-nav {
