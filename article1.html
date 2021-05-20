@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <title>Nordic Design - A personal blog website by Alex Lillo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Example site created for Udacity Nanodegree">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Nordic Design - A personal blog website by Alex Lillo</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nordic Design">
+    <meta property="og:description" content="Example site created for Udacity Nanodegree">
   </head>
   <body>
     <div class="wrapper container-article">
@@ -59,7 +62,7 @@
           <div class="article-body">
             <section>
               <h2>You say tomato, I say tomeito. Or is it avocado?</h2>
-              <p class="postDate">02 May, 2018 - Alex Lillo</p>
+              <p class="postDate">02 May, 2018</p>
             </section>
             <article>
               <p>You’re in a meeting and the boss says <em>we’re going to redesign the website</em>. Everybody nods as it’s so badly needed. High level plans are discussed and it's clear who’s going to do what and when.</p>
@@ -103,6 +106,29 @@
 
               <p>So on your next project kick off meeting remember: words are meaningless and forgettable.</p>
             </article>
+
+            <p class="article-origin">This article was originally <a href="https://nordic-design.net/2018/05/02/you-say-tomato-i-say-tomeito-or-is-it-avocado">published on Nordic Design</a>, the actual blog from Alex Lillo.</p>
+            <div class="social-share">
+              <ul>
+                <li>
+                  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </li>
+                <li>
+                  <div class="fb-share-button" data-href="https://www.your-domain.com/your-page.html" data-layout="button_count"></div>
+                </li>
+                <li class="share-linkedin"><a href="https://www.linkedin.com/shareArticle?mini=true&url={articleUrl}&title=You%20say%20tomato,%20I%20say%20tomeito.%20Or%20is%20it%20avocado?">Share</a></li>
+              </ul>
+            </div>
+            <div class="article-author">
+              <section>
+                <img src="./images/profile.jpg" alt="Portrait photo of Alex Lillo">
+                <div class="article-author-text">
+                  <p class="article-author-text--name">Alex Lillo</p>
+                  <p class="article-author-text--title">Designer / Front-end developer at Tycho Interactive</p>
+                  <p class="article-author-text--biog">Alex started creating websites back in 2003 as visual designer and front-end developer. Later on he decided to take care of the bigger picture and started a career in User Experience. Now it's a bit of everything, he just loves creating digital products.</p>
+                </div>
+              </section>
+            </div>
           </div>
 
         <!-- related articles -->
@@ -139,5 +165,14 @@
       <p>Coded with ❤️ by Alex Lillo in the UK. Some images from <a href="https://unsplash.com/">Unsplash</a>. Font <a href="https://fonts.google.com/specimen/Abhaya+Libre">Abhaya Libre</a> by Mooniak. Icons by <a href="https://fontawesome.com/license">Font Awesome</a>.</p>
     </footer>
     <script src="./scripts/script.js" charset="utf-8"></script>
+        <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
   </body>
 </html>

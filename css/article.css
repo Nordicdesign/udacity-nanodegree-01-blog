@@ -37,3 +37,78 @@
 .container-article aside h4 {
   margin: 4px 0;
 }
+
+.article-origin {
+  margin-top: calc(var(--baseline) *4);
+  border-top: 1px solid var(--grey-100);
+  padding-top: var(--baseline);
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+/* social share */
+.social-share ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.social-share ul li {
+  margin-right: calc(var(--baseline)*2);
+}
+
+.social-share ul li:last-child {
+  margin-right: 0;
+}
+
+.social-share ul li.share-linkedin {
+  background: url('../images/linkedin-in-brands.svg') 0 0 no-repeat;
+  padding-left: 25px;
+  background-size: 17px;
+}
+
+.social-share ul li .fb-share-button span {
+  vertical-align: top !important;
+}
+
+.social-share ul li.share-linkedin a {
+  color: var(--color-body);
+  font-size: 1.4rem;
+}
+
+/* author card */
+.article-author {
+  background: var(--accent2);
+  padding: calc(var(--baseline)*2);
+  border-top: 2px solid var(--accent3);
+  margin-top: calc(var(--baseline)*4);
+}
+
+.article-author section {
+  display: flex;
+  flex-direction: row;
+}
+
+.article-author section img {
+  border-radius: 200px;
+  max-width: 150px;
+  margin-right: calc(var(--baseline) *2);
+  height: max-content;
+}
+.article-author .article-author-text--name {
+  font-family: 'Abhaya Libre', Times, serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 2.2rem;
+}
+.article-author .article-author-text--title {
+  font-family: 'Abhaya Libre', Times, serif;
+  margin-top: 0;
+}
+
+.article-author .article-author-text--biog {
+  font-size: 1.4rem;
+}
