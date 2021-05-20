@@ -96,18 +96,18 @@ header nav ul li a:hover {
     display: none;
   }
 
+  /* the actual off canvas manu */
   header .small-nav {
-    position: absolute;
-    width: 90vw;
+    position: fixed;
+    width: 320px;
     left: 100vw;
-    top: 0;
+    top: 32px;
   }
 
   header .small-nav .close-nav {
     text-align: right;
     font-size: 1.8rem;
     padding-bottom: calc(var(--baseline));
-    border-bottom: 1px solid #eee;
     margin-top: 4px;
   }
 
@@ -136,6 +136,7 @@ header nav ul li a:hover {
   header .small-nav ul li {
     font-size: 2.2rem;
     margin-bottom: calc(var(--baseline)*3);
+    text-align: center;
   }
 
   header .small-nav ul.header-social {
