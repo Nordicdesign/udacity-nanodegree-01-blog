@@ -57,14 +57,14 @@ header nav ul li a:hover {
   margin-right: 0;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 651px) {
   .small-nav,
   .small-menu {
     display: none;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
   header {
     justify-content: space-between;
     margin-top: var(--baseline);

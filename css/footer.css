@@ -8,8 +8,10 @@ footer p {
   margin: 0;
 }
 
-footer a {
+footer a,
+footer a:visited {
   font-family: "Helvetica Neue", "Helvetica", "Open sans", arial, sans-serif;
+  color: var(--accent3);
 }
 
 @media screen and (max-width: 480px) {

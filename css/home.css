@@ -16,10 +16,16 @@
 
 .home-main .main-article h2 {
   position: absolute;
-  bottom: calc(var(--baseline) *7);
+  bottom: calc(var(--baseline) *5);
   left: calc(var(--baseline) *2);
   color: white;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 1153px) {
+  .home-main .main-article h2 {
+    bottom: calc(var(--baseline) *7);
+  }
 }
 
 .home-main .main-2nd-article {
@@ -43,9 +49,20 @@
 @media screen and (min-width: 750px) and (max-width: 1080px) {
   .home-main .main-2nd-article {
     width: 50%;
+    margin-left: var(--baseline);
   }
   .home-main .home-biog {
     width: 150px;
+    margin-left: var(--baseline);
+  }
+
+  .home-main .main-article h2 {
+    position: inherit;
+    top: 0;
+    left: 0;
+    color: black;
+    text-shadow: none;
+    margin-top: var(--baseline);
   }
 }
 
@@ -104,11 +121,8 @@
   }
 
   .home-main .main-article h2 {
-    /* position: absolute; */
     bottom:0;
     left: calc(var(--baseline) );
-    /* color: white; */
-    /* text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8); */
   }
 
   .home-main .main-2nd-article {
@@ -230,5 +244,5 @@
 
 .dateline {
   font-size: 1.2rem;
-  color: #999;
+  color: #6d6c6c;
 }

@@ -15,10 +15,15 @@
   .wrapper {
     display: block;
   }
+}
+
+@media screen and (max-width: 650px) {
   .wrapper.menu-visible {
-    transform: translate(-92vw, 0);
+    transform: translate(-290px, 0);
   }
 }
+
+
 
 header {
   grid-area: header;
