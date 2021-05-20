@@ -121,5 +121,6 @@
 
   .article-author img {
     margin-bottom: var(--baseline);
+    height: auto;
   }
 }

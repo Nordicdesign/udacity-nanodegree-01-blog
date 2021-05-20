@@ -60,7 +60,7 @@ header {
   grid-column-gap: calc(var(--baseline)*6);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .container-article main {
     display: block;
   }
