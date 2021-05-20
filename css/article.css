@@ -65,9 +65,10 @@
 }
 
 .social-share ul li.share-linkedin {
-  background: url('../images/linkedin-in-brands.svg') 0 0 no-repeat;
+  background: url('../images/linkedin-in-brands.svg') left center no-repeat;
   padding-left: 25px;
   background-size: 17px;
+  line-height: 1;
 }
 
 .social-share ul li .fb-share-button span {
@@ -111,4 +112,14 @@
 
 .article-author .article-author-text--biog {
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 480px) {
+  .article-author section {
+    flex-direction: column;
+  }
+
+  .article-author img {
+    margin-bottom: var(--baseline);
+  }
 }

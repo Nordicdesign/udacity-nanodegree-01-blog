@@ -99,9 +99,9 @@ header nav ul li a:hover {
   /* the actual off canvas manu */
   header .small-nav {
     position: fixed;
-    width: 320px;
+    width: 290px;
     left: 100vw;
-    top: 32px;
+    top: 0;
   }
 
   header .small-nav .close-nav {
@@ -131,15 +131,21 @@ header nav ul li a:hover {
   header .small-nav nav ul {
     flex-direction: column;
     margin-top: calc(var(--baseline)*3);
+    margin-left: 0;
   }
 
   header .small-nav ul li {
     font-size: 2.2rem;
     margin-bottom: calc(var(--baseline)*3);
     text-align: center;
+    margin-right: 0;
   }
 
   header .small-nav ul.header-social {
     justify-content: center;
+  }
+  header .small-nav ul.header-social li {
+    width: 50px;
+    margin-right: 0;
   }
 }
